@@ -1,0 +1,50 @@
+#header-nav {
+  background-color: #ff2e63;
+  border-radius: 0;
+  border: 0;
+}
+#header-nav .navbar-brand a{
+  color: #252a34;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #252a34;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+#nav-list{
+  background: #eaeaea;
+  border: 1px solid #e7e7e7;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#nav-list hr{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #252a34;
+}
+
+#header-nav span.icon-bar{
+  background: #252a34;
+}
+
+#header-nav .navbar-toggle:hover span.icon-bar, #header-nav .navbar-toggle:focus span.icon-bar{
+  background: #252a34;
+}
+
+.menu-header{
+  margin-bottom: 40px;
+}
+.menu-content{
+  background: #08d9d6;
+  margin-bottom: 20px;
+}
